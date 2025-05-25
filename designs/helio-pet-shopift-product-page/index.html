@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helio pet product page</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="body-content">
+        <nav class="top-nav">
+            <div class="top-nav-left">
+                <ul>
+                    <li><button><label>Shop</label><img class="arrowdown" src="images/arrow-down.svg"/></button></li>
+                    <li><button><label>Our Story</label></button></li>
+                    <li><button><label>Science</label><img class="arrowdown" src="images/arrow-down.svg"/></button></li>
+                    <li><button><label>Results</label></button></li>
+                </ul>
+            </div>
+            <div class="top-nav-right">
+                <ul>
+                    <li><button><label>ENG</label><img class="arrowup" src="images/arrow-up.svg"/></button></li>
+                    <li><button><label>USD</label><img class="arrowup" src="images/arrow-up.svg"/></button></li>
+                    <li><div class="separator"></div></li>
+                    <li>
+                        <button class="cart-button">
+                            <img id="cart-icon" src="images/cart.svg" alt="Cart""/> <!-- Cart icon -->
+                            <div class="notification-badge">
+                                <span>3</span> <!-- Notification circle -->
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="top-nav-mobile">
+            <div class="top-nav-left-mobile">
+                <button><img src="images/hamburger.png"/></button>
+            </div>
+            <div class="top-nav-center-mobile">
+                <button><img src="images/logo.png"/></button>
+            </div>
+            <div class="top-nav-right-mobile">
+                <img src="images/flag.png"/>
+                <img src="images/bag.png"/>
+            </div>
+        </nav>
+        <section id="product-section">
+            <div class="product-view">
+                <div class="primary-image">
+                    <img src="images/product pic variations.png"/>
+                </div>
+                <div class="other-images">
+                    <img src="images/DSC05696 1.png"/>
+                    <img src="images/DSC01882 1.png"/>
+                    <img src="images/dog-device-11_1024x1024.jpg 1.png"/>
+                    <img src="images/sd-3-7_480x480.jpg.png"/>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="pinfo">
+                    <div class="best-seller-badge">
+                        <label>Best Seller</label>
+                    </div>
+                    <div class="review-summary">
+                        <div class="review-gold">
+                            <img src="images/star.svg"/>
+                            <img src="images/star.svg"/>
+                            <img src="images/star.svg"/>
+                            <img src="images/star.svg"/>
+                            <img src="images/star.svg"/>
+                        </div>
+                        <label id="review-rate">4.9</label>
+                        <label id="review-count">(1,021 reviews)</label>
+                    </div>
+                    <div class="product-name">
+                        <h1>Helio Pet Device ™</h1>
+                    </div>
+                    <div class="popular-reviewer">
+                        <div class="user-review-image">
+                            <img id="popular-reviewer-image" src="images/user-review-profile.png"/>
+                        </div>
+                        <div class="user-review-paragraph">
+                            <p>“We are BOTH so THANKFUL! I purchased this for my 12 year old Lab mix as he's got mobility issues with the back legs. It's been 3 weeks and already a difference!”</p>
+                        </div>
+                    </div>
+                    <div class="leech-notes">
+                        <ul>
+                            <li><img src="images/tick.svg"/><label>Reduce aches & pains with 5-minute sessions.</label></li>
+                            <li><img src="images/tick.svg"/><label>Cold Laser Therapy helps with Pain, Inflammation & more.</label></li>
+                            <li><img src="images/tick.svg"/><label>Professional Grade LLLT with 5 Laser Diodes.</label></li>
+                        </ul>
+                    </div>
+                    <div class="product-price">
+                        <div class="previous-price">
+                            <label id="prev-price-lbl"><s>$369.00</s></label>
+                        </div>
+                        <div class="new-price">
+                            <label id="new-price-lbl">$249.00</label>
+                        </div>
+                        <div class="count-change-mobile">
+                            <button id="dec-counter"><img src="images/cart-minus.svg"/></button>
+                            <label id="product-count">1</label>
+                            <button id="inc-counter"><img src="images/cart-plus.svg"/></button>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-view">
+                        <button id="add-to-cart-btn">Add to Cart</button>
+                        <div class="count-change">
+                            <button id="dec-counter"><img src="images/cart-minus.svg"/></button>
+                            <label id="product-count">1</label>
+                            <button id="inc-counter"><img src="images/cart-plus.svg"/></button>
+                        </div>
+                    </div>
+                    <div class="payment-cards">
+                        <img src="images/Amex.svg"/>
+                        <img src="images/Visa.svg"/>
+                        <img src="images/Mastercard.svg"/>
+                        <img src="images/PayPal.svg"/>
+                        <img src="images/Discover.svg"/>
+                        <img src="images/Venmo.svg"/>
+                    </div>
+                    <div class="additional-notes">
+                        <ul>
+                            <li><img src="images/shield-check.svg"/><label><a href="">30 day money back</a> gua rantee</label></li>
+                            <li><img src="images/delivery-parcel.svg"/><label>Expected <a href="">delivery in 2-4</a> business days</label></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="cart-drawer-section">
+        <div class="top-bar">
+            <h2>Your cart</h2>
+            <button id="closecartdrawer-btn"><img src="images/close.svg"/></button>
+        </div>
+        <div class="products">
+            <div class="product-top">
+                <p>Product</p>
+                <p>Total</p>
+            </div>
+            <div class="product-preview">
+                <img src="images/product.png"/>
+                <div class="product-checkout-info">
+                    <p id="product-name">Helio Pet Device ™</p>
+                    <p id="product-price">$249.99</p>
+                    <p>Color: White</p>
+                    <div class="product-item-adjust">
+                        <div class="product-counter">
+                            <button id="dec-counter"><img src="images/cart-minus.svg"/></button>
+                            <label id="product-count">1</label>
+                            <button id="inc-counter"><img src="images/cart-plus.svg"/></button>
+                        </div>
+                        <button>
+                            <img src=""/>
+                        </button>
+                    </div>
+                </div>
+                <label id="total-price">$29.99</label>
+            </div>
+        </div>
+        <div class="product-estimate">
+            <div class="estimate">
+                <label>Estimated total</label>
+                <label id="total-price">$29.99</label>
+            </div>
+            <button id="checkout-btn">
+                Checkout
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

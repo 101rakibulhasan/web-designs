@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>Galleria</title>
+		<link href="style.css" rel="stylesheet"/>
+		
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+		https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js"></script>
+		
+		<script src="home.js"></script>
+	</head>
+	
+	<body>
+		<div class="sidebar">
+			<ul>
+				<li>
+					<a href="">HOME</a>
+					<hr>
+					<a href="">AOTM</a>
+					<hr>
+					<a href="">CATEGORY</a>
+					<hr>
+					<a href="">ABOUT</a>
+				</li>
+			</ul>
+
+		</div>
+		<div class="sidebar_opener">
+			<center><button><img src="img/drawer.png"/></button><center>
+		</div>
+		<div class="gallery">
+			<div class="title">
+				<img src="img/title.png"/>	
+				<hr>
+			</div>
+			
+			<div class="images">
+				<div id="column_one" class="column">
+					<img class="image" src="img/img1.jpg"/>
+					<img class="image" src="img/img2.jpg"/>
+					<img class="image" src="img/img3.jpg"/>
+					<img class="image" src="img/img5.jpg"/>
+					<img class="image" src="img/img4.jpg"/>
+					
+				</div>
+				<div id="column_two" class="column">
+					<img class="image" src="img/img1.jpg"/>
+					<img class="image" src="img/img3.jpg"/>
+					<img class="image" src="img/img4.jpg"/>
+					<img class="image" src="img/img2.jpg"/>
+					<img class="image" src="img/img5.jpg"/>
+				</div>
+				<div id="column_three" class="column">
+					<img class="image" src="img/img1.jpg"/>
+					<img class="image" src="img/img2.jpg"/>
+					<img class="image" src="img/img3.jpg"/>
+					<img class="image" src="img/img4.jpg"/>
+					<img class="image" src="img/img5.jpg"/>
+				</div>	
+			</div>
+		</div>
+		<div class="interactive_sidebar">
+			<div class="top_status">
+				<button><img src="img/full_screen.svg"/></button>
+				<button><img src="img/setting.svg"/></button>
+				<button><img src="img/notification.svg"/></button>
+				<button onclick="signout()" type="button"><img src=""/></button>
+			</div>
+			<div class="ad_might_like">
+				<p> - Things You May Like - <p>
+				<hr>
+			</div>
+			<div class="artist_might_like">
+				<p> - Artists You May Like - <p>
+				<hr>
+			</div>
+			<div class="chat">
+				<p> - Chat - <p>
+				<hr>
+			</div>
+			<div class="post_new">
+				<button><img src="img/new_post.png"/></button>
+			</div>
+			
+		</div>
+	<body>
+</html>

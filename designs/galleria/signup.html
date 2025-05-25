@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Galleria</title>
+		<link href="signup.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+		https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js"></script>
+
+		<script src="login.js"></script>
+		
+	</head>
+	
+	<body>
+		
+		<div class="desc_frame">
+			<p>Heaven For Artists With Passion!<p>
+		</div>
+		<div class="signup_container">
+			<div class="signup_frame">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" id="name">
+				
+				<label for="username">Username:</label>
+				<input type="text" class="form-control" id="username">
+				
+				<label for="dob">Date Of Birth:</label>
+				<input type="date" id="birthday" name="birthday">
+				
+				<label for="email">Email:</label>
+				<input type="text" class="form-control" id="email">
+				
+				<label for="pass">Password:</label>
+				<input type="password" class="form-control" id="pass">
+				
+				<label for="gender">Sex:</label>
+				<div class="btn-group">
+				  <button type="button" class="btn btn-dark">Male</button>
+				  <button type="button" class="btn btn-dark">Female</button>
+				</div>
+				
+				<p><input type="checkbox" class="policy_agrement" id="policy_agreement">By Signing Up, You Agree To Nexina Policy<p>
+				<button onclick="signup()" type="button" class="btn btn-dark">Create Account</button>
+				<p>Already Have An Account? <a href="login.html">Sign In</a> Here!<p>
+			</div>
+		</div>
+	</body>
+</html>

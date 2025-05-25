@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	display:flex;
+	margin: auto;
+	align-items: center;
+	width:auto;
+	height:100%;
+	overflow:hidden;
+}
+
+.desc_frame{
+	height:100%;
+	width:100%;
+	flex:1;
+}
+
+.signup_container{
+	height:100%;
+	width:100%;
+	flex:1;
+	display: flex;
+	justify-content: center;
+	background-color:black;
+}
+
+.signup_frame{
+	padding:100px;
+	color:white;
+}

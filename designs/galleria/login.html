@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Galleria</title>
+		<link href="login.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+		https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js"></script>
+
+		<script src="login.js"></script>
+		
+	</head>
+	
+	<body>
+		
+		<div class="desc_frame">
+			<p>Heaven For Artists With Passion!<p>
+		</div>
+		<div class="signup_container">
+			<div class="signin_frame">
+				<label for="nex_id">Nex ID:</label>
+				<input type="text" id="nex_id">
+				
+				<label for="email">Email:</label>
+				<input type="text" id="email">
+				
+				<label for="pass">Password:</label>
+				<input type="password" id="pass">
+				
+				<button onclick="signin()" type="button" class="btn btn-dark">Sign In</button>
+				
+				<p> Forgot Password? <p>
+				<p> Not A NEXINA Member? <a href="signup.html">Sign Up</a> Now! <p>
+				<p>Copyright By NEXINA Corporation @2021<p>
+			</div>
+		</div>
+	</body>
+</html>
